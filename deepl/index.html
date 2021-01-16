@@ -13,7 +13,7 @@ environment variable:</p>
 </code></pre>
 <h1 id="examples" class="section-header"><a href="#examples">Examples</a></h1><h2 id="overview" class="section-header"><a href="#overview">Overview</a></h2>
 <p>To get an overview of the available commands, just invoke the program.</p>
-<pre><code class="language-bash">shell&gt; deepl
+<pre><code class="language-text">shell&gt; deepl
 deepl 0.1.0
 Command line client for the DeepL API
 
@@ -35,18 +35,18 @@ SUBCOMMANDS:
 <h2 id="translating-text" class="section-header"><a href="#translating-text">Translating Text</a></h2>
 <p>By default, <code>deepl</code> reads from <code>STDIN</code> and writes to <code>STDOUT</code>, which means that you can integrate
 it nicely into toolchains.</p>
-<pre><code class="language-bash">shell&gt; echo &quot;Please go home.&quot; | deepl translate --source-language EN --target-language DE | cat -
+<pre><code class="language-text">shell&gt; echo &quot;Please go home.&quot; | deepl translate --source-language EN --target-language DE | cat -
 Bitte gehen Sie nach Hause.
 </code></pre>
 <p>By providing the options <code>--input-filepath</code> and / or <code>--output-filepath</code>, you can tell <code>deepl</code> to
 read from / write to files, rather than <code>STDIN</code> / <code>STDOUT</code>.</p>
 <h2 id="retrieving-account-usage--limits" class="section-header"><a href="#retrieving-account-usage--limits">Retrieving Account Usage &amp; Limits</a></h2>
-<pre><code class="language-bash">shell&gt; deepl usage-information
+<pre><code class="language-text">shell&gt; deepl usage-information
 Available characters per billing period: 250000
 Characters already translated in the current billing period: 3317
 </code></pre>
 <h2 id="retrieving-available-languages" class="section-header"><a href="#retrieving-available-languages">Retrieving Available Languages</a></h2>
-<pre><code class="language-bash">shell&gt; deepl languages
+<pre><code class="language-text">shell&gt; deepl languages
 DeepL can translate from the following source languages:
   DE    (German)
   EN    (English)
