@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["languages",""],["main",""],["translate",""],["usage_information",""]],"mod":[["parse_arguments",""]]});
+window.SIDEBAR_ITEMS = {"fn":[["languages",""],["main",""],["translate",""],["usage_information",""]],"mod":[["parse_arguments",""]]};
