@@ -3,6 +3,9 @@
     // Attributes available to this derive:
     #[clap]
     #[structopt]
+    #[command]
+    #[arg]
+    #[group]
 }
 </code></pre></div><details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Generates the <code>Parser</code> implementation.</p>
 <p>This is far less verbose than defining the <code>clap::Command</code> struct manually,
